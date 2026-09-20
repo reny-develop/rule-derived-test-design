@@ -31,6 +31,13 @@ claim.** An arbitrary `if` condition cannot be enumerated. Expressive power has 
 before enumerability can be bought — the same trade a type system, SQL, or a regular
 expression makes.
 
+**Whom it reaches first is a stage, not a condition.** The foundation is new, so hardly
+anyone can read a rule set yet, and today this reaches the people who write them and the
+people who review those changes. The method is aimed past them, at whoever holds the
+requirement: they assemble the rules, read what came out, and say whether it is what they
+meant. What stands in between is a way to see and edit a rule set, and that does not exist
+yet. Read the first stage as the condition and this is a method with nobody left to read it.
+
 [Ruledger](https://github.com/reny-develop/Ruledger) implements this method on top of
 [Rulealize](https://github.com/reny-develop/Rulealize).
 
@@ -38,9 +45,13 @@ expression makes.
 
 | | |
 |---|---|
-| [doc/thesis.md](doc/thesis.md) | The thesis. Written in Japanese until it settles; to be rewritten in English on publication |
+| [doc/thesis.md](doc/thesis.md) | The thesis, in Japanese |
 | [doc/verification.md](doc/verification.md) | What has been measured, what merely follows from it, and what has not been checked |
 | [doc/motivation.md](doc/motivation.md) | Where this came from, in the author's own words |
+
+These are working documents. They are deleted once Ruledger is finished — proof and
+experience are then things you run rather than things you read — and this README takes over
+whatever has to survive them.
 
 ## Status
 
