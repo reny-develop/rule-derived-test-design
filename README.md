@@ -1,6 +1,6 @@
 # Rule-Derived Test Design
 
-**The test design is derived from the ruleset, mechanically, and then read by a human against
+**The test design is derived from the rule set, mechanically, and then read by a human against
 what they meant.**
 
 A requirement is a finite piece of writing; an implementation is a machine that runs. The
@@ -15,14 +15,14 @@ measured, or reviewed. That is why software quality still depends on individual 
 talent that does not reproduce, does not scale, and eventually resigns.
 
 Rule-Derived Test Design produces the list. On a foundation whose rules are declarative, are
-themselves what runs, and can be walked, everything observable about a ruleset is finite and
+themselves what runs, and can be walked, everything observable about a rule set is finite and
 reachable: which inputs are legal in a state, whether the state is terminal and with what
 result, and where each legal input leads. Walking the states and writing all of it down is the
 test design, and it is produced without anyone noticing anything.
 
 What stays with the human is judgement. The enumeration is tautological — it states what the
-ruleset decides, never what it should decide — so the oracle remains human intent, outside the
-system. The human changes the machine's choices where the defaults are not what they want to
+rule set decides, never what it should decide — so what counts as correct stays where it
+already was, in the intent of the person reading, outside anything the machine holds. The human changes the machine's choices where the defaults are not what they want to
 see, and decides whether what came out is what they meant. Nobody writes cases, test data, or
 expected values.
 
