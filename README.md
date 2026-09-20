@@ -41,6 +41,18 @@ yet. Read the first stage as the condition and this is a method with nobody left
 [Ruledger](https://github.com/reny-develop/Ruledger) implements this method on top of
 [Rulealize](https://github.com/reny-develop/Rulealize).
 
+## Seeing it rather than reading about it
+
+Everything claimed here is either a number a command prints or half an hour at a shell.
+
+| | |
+|---|---|
+| the proof | `dotnet test verify/Ruledger.Verify.csproj --logger "console;verbosity=detailed"` in a clone of Ruledger. It walks the measured rule sets, prints what it found, and fails if any of it has moved. It is wired to run on every commit there |
+| the experience | [Ruledger's doc/tutorial.md](https://github.com/reny-develop/Ruledger/blob/main/doc/tutorial.md). Two tools installed, a rule set changed one line at a time, and a count at the end of what did not happen |
+
+Neither of them is this document, and that is deliberate. A method whose evidence is prose
+is a method somebody has to take on trust.
+
 ## Documents
 
 | | |
