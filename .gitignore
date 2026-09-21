@@ -4,3 +4,8 @@
 # Editor
 .vscode/
 .idea/
+
+# The author's own words, recorded once and kept out of the published repository.
+# Not a reader's document: it is where to return when the method starts sounding
+# abstract, and running Ruledger does not produce it.
+doc/motivation.md

@@ -22,8 +22,9 @@ test design, and it is produced without anyone noticing anything.
 
 What stays with the human is judgement. The enumeration is tautological — it states what the
 rule set decides, never what it should decide — so what counts as correct stays where it
-already was, in the intent of the person reading, outside anything the machine holds. The human changes the machine's choices where the defaults are not what they want to
-see, and decides whether what came out is what they meant. Nobody writes cases, test data, or
+already was, in the intent of the person reading, outside anything the machine holds. The
+human changes the machine's choices where the defaults are not what they want to see, and
+decides whether what came out is what they meant. Nobody writes cases, test data, or
 expected values.
 
 **This does not apply to general-purpose languages, and the narrow scope is part of the
@@ -53,22 +54,21 @@ Everything claimed here is either a number a command prints or half an hour at a
 Neither of them is this document, and that is deliberate. A method whose evidence is prose
 is a method somebody has to take on trust.
 
-## Documents
+## What is not here
 
-| | |
-|---|---|
-| [doc/thesis.md](doc/thesis.md) | The thesis, in Japanese |
-| [doc/verification.md](doc/verification.md) | What has been measured, what merely follows from it, and what has not been checked |
-| [doc/motivation.md](doc/motivation.md) | Where this came from, in the author's own words |
+There were three working documents: the thesis, a record of what had been measured, and
+the author's own account of where this came from. The first two are gone. They were
+scaffolding — a thesis is a claim, and a record of measurements is a claim about
+measurements, and both were replaced by measurements that run. The third is kept out of
+the repository rather than deleted; it is not a reader's document.
 
-These are working documents. They are deleted once Ruledger is finished — proof and
-experience are then things you run rather than things you read — and this README takes over
-whatever has to survive them.
+What survives them is this page and a tool you can run, which is what the two sections
+above are. Deleting the rest was the last thing the method asked for.
 
 ## Status
 
-Private. It goes public once the minimum needed to demonstrate the method — and to let someone
-experience it — exists. Nothing here is stable.
+The method is implemented and measured. [Ruledger](https://github.com/reny-develop/Ruledger)
+is where both of those live, and its README says what it does and does not do.
 
 ## License
 
