@@ -49,7 +49,7 @@ Everything claimed here is either a number a command prints or half an hour at a
 | | |
 |---|---|
 | the proof | `dotnet test verify/Ruledger.Verify.csproj --logger "console;verbosity=detailed"` in a clone of Ruledger. It walks the measured rule sets, prints what it found, and fails if any of it has moved. Four minutes, and it needs nothing but a clone |
-| the experience | [Ruledger's doc/tutorial.md](https://github.com/reny-develop/Ruledger/blob/main/doc/tutorial.md). Two tools installed, a rule set changed one line at a time, and a count at the end of what did not happen |
+| the experience | [Ruledger.Cli's doc/tutorial.md](https://github.com/reny-develop/Ruledger.Cli/blob/main/doc/tutorial.md). Two tools installed, a rule set changed one line at a time, and a count at the end of what did not happen |
 
 Neither of them is this document, and that is deliberate. A method whose evidence is prose
 is a method somebody has to take on trust.
